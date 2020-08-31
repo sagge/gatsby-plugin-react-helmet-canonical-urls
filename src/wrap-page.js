@@ -13,9 +13,13 @@ const isExcluded = (excludes, element) => {
 
   element = element.replace(/\/+$/, '');
 
+  const withoutTrailingSlash = path => (
+    path === `/` ? path : path.replace(/\/$/, ``)
+  )
+
   return excludes.some(exclude => {
     if (exclude instanceof RegExp) return element.match(exclude);
-    return minimatch(element, exclude);
+    return minimatch(withoutTrailingSlash(element), withoutTrailingSlash(exclude));
   });
 };
 
