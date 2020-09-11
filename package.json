@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-plugin-react-helmet-canonical-urls",
+  "name": "@sagge/gatsby-plugin-react-helmet-canonical-urls",
   "version": "1.4.1",
   "description": "Add canonical links to HTML pages Gatsby generates using React Helmet.",
   "main": "index.js",
@@ -10,8 +10,8 @@
     "prepare": "cross-env NODE_ENV=production yarn run build",
     "test": "jest --env node"
   },
-  "repository": "https://github.com/NickCis/gatsby-plugin-react-helmet-canonical-urls",
-  "author": "Nicolas Cisco <ncis20@gmail.com>",
+  "repository": "https://github.com/sagge/gatsby-plugin-react-helmet-canonical-urls",
+  "author": "Sakari Pesonen",
   "keywords": [
     "gatsby",
     "gatsby-plugin",
