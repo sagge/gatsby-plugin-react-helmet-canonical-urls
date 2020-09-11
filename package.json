@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-react-helmet-canonical-urls",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Add canonical links to HTML pages Gatsby generates using React Helmet.",
   "main": "index.js",
   "scripts": {
@@ -28,9 +28,9 @@
     "cross-env": "^5.2.0",
     "jest": "^24.7.1",
     "prettier": "^1.16.4",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-helmet": "^5.2.0"
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^6.1.0"
   },
   "peerDependencies": {
     "gatsby-plugin-react-helmet": "*",
